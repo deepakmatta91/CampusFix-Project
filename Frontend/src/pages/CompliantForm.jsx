@@ -45,7 +45,7 @@ const Complaint = () => {
       );
       if (image) data.append("image", image);
 
-      const res = await fetch("https://campusfix-project.onrender.com/api/complaints", {
+      const res = await fetch("https://blissful-clarity-production-2c71.up.railway.app/api/complaints", {
         method: "POST",
         body: data,
       });

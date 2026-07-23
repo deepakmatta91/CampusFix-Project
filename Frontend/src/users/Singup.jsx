@@ -81,7 +81,7 @@ const SignUp = () => {
     }
 
     try {
-      const res = await fetch("https://campusfix-project.onrender.com/api/auth/signup", {
+      const res = await fetch("https://blissful-clarity-production-2c71.up.railway.app/api/auth/signup", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

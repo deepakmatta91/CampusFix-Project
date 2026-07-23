@@ -225,7 +225,7 @@ const AdminDashboard = () => {
   });
 
   useEffect(() => {
-    fetch("https://campusfix-project.onrender.com/api/complaints/stats")
+    fetch("https://blissful-clarity-production-2c71.up.railway.app/api/complaints/stats")
       .then((res) => res.json())
       .then((data) => setStats(data))
       .catch(() => console.log("Failed to load stats"));
